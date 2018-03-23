@@ -10,7 +10,8 @@ def multi_num(num1,num2):
     return num1*num2
 
 def devise_num(num1,num2):
-    return num1%num2
+    if num1 == 0 or num2 == 0: return False
+        return num1%num2
 
 def is_positive(num):
     return num > 0
